@@ -1,0 +1,48 @@
+@import url(https://maxcdn.bootstrapcdn.com/bootstrap/3.3.5/css/bootstrap.min.css);
+@import url(https://fonts.googleapis.com/css?family=Raleway);
+@import url(https://fonts.googleapis.com/css?family=Lato);
+@import url(https://fonts.googleapis.com/css?family=Montserrat|Roboto+Condensed); 
+@import url(https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css);
+
+body {
+	font-family: 'Lato', 'Helvetica Neue', Helvetica, sans-serif;
+	font-size: 16px;
+	font-weight: 300;
+	background-position: center top;
+	margin: 3em 3em 3em 3em;
+}
+
+h1, h2 {
+	font-family: 'Montserrat', Helvetica, sans-serif;
+	text-align: center;
+}
+
+.theHeader {
+	text-align: center;
+	background-image: url("img/header.jpg");
+	min-height: 200px;
+}
+
+nav {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	z-index: 100;
+	background-color: #181c22;
+	color: white;
+	font-size: 16px;
+	padding-left: 15px;
+	width: 100%;
+}
+
+nav li {
+	display: inline;
+	padding: 2.5em;
+	font-variant: small-caps;
+}
+
+.popularity {
+	text-align: center;
+}
+
+
